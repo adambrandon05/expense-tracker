@@ -16,35 +16,32 @@ Personal expense tracker with that will automatically import bank transaction da
 - Git
 
 ### Installation 
-...
-
-    git clone https://github.com/adambrandon05/expense-tracker.git
+```
+    git clone https://github.com/adambrandon05 expense-tracker.git
     cd expense-tracker
-...
+```
 
 2. Install dependencies:
-...
-    
+```
     npm install
-...
+```
 
 3. Create '.env' file: 
-...
-    
+```
     DB_USER=your_username
     DB_PASSWORD=your_password
     DB_HOST=localhost
     DB_PORT=5432
     DB_NAME=expense-tracker
     PORT=5000
-...
+```
 
 4. Create a PostgreSQL database called 'expense_tracker'
 
 5. Start the server: 
-...
+```
     npm start
-...
+```
 
 ## Features
 
@@ -59,5 +56,5 @@ Personal expense tracker with that will automatically import bank transaction da
 ## Current Status 
 
 Currently building the backend API and database. 
-...
+
 
