@@ -2,7 +2,7 @@
 CREATE TABLE users ( 
     id SERIAL PRIMARY KEY, 
     username VARCHAR(100) UNIQUE NOT NULL, 
-    email VARCHAR(100) UNIQUE NOT NULL, 
+    email VARCHAR(100) UNIQUE NOT NULL CHECK (email ~ '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}$'),
     password VARCHAR(255) NOT NULL, 
     create_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP 
 );
