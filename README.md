@@ -4,6 +4,7 @@ Personal expense tracker with that will automatically import bank transaction da
 ## Tech Stack 
 
 - **Backend:** Node.js, Express.js
+- **Authentication:** JWT (JSON Web Tokens)
 - **Frontend:** React
 - **Database:** PostgreSQL
 - **Banking API:** Plaid
